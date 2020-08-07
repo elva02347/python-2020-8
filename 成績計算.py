@@ -17,15 +17,15 @@ while True:
         print('your chinese score:',sa)
         break
     elif 31 <= a <= 34:
-        a = 3
+        sa = 3
         print('your chinese score:',sa)
         break
     elif 20 <= a <= 30:
-        a = 2
+        sa = 2
         print('your chinese score:',sa)
         break
     elif 0<= a <= 19:
-        a = 1
+        sa = 1
         print('your chinese score:',sa)
         break
     else :
@@ -159,7 +159,7 @@ while True:
     else :
         print('fill in the right number')
 while True:
-    f = int(input('how many points you get in writing:'))
+    f = float(input('how many points you get in writing:'))
     if 0.1 <= f <= 1:  
         break
     else:
@@ -171,14 +171,43 @@ print('your total',total)
 gob = input('girl or boy:')
 if gob == 'girl':
     if total >= 33.8:
-        print('your high school is 北一女中')
+        print('your high school is 北一女中')        
     elif 33.6 <= total < 33.8:
-        print('your high school is 師大附中')
+        print('your high school is 師大附中')        
     elif 30.6 <= total < 33.6:
         print('your high school is 中山女高')
     elif 30.4 <= total < 30.6:
-        print('your high school is 松山高中')
+        print('your high school is 松山高中')        
     elif 29.8 <= total < 30.4:
+        print('your high school is 大同高中 or 政大附中')    
+    elif 29.6 <= total < 29.8: 
+        print('your high school is 中崙高中')
+    elif 28.8 <= total < 29.6:
+        print('your high school is 麗山高中')       
+    elif 28.6 <= total < 28.8:
+        print('your high school is 板橋高中')
+    elif 27.8 <= total < 28.6:
+        print('your high school is 大直高中')
+    elif 27.6 <= total < 27.8:
+        print('your high school is 成淵高中 or 和平高中 or 海山高中')
+    elif 25.6 <= total < 27.6:
+        print('your high school is 內湖高中 or 西松高中')
+    elif 24.8 <= total < 25.6:
+        print('your high school is 中正高中')
+    elif 24.6 <= total < 24.8:
+        print('your high school is 明倫高中 or 景美女中')
+    elif 23.8 <= total < 24.6:
+        print('your high school is 南湖高中')
+elif gob == 'boy':
+    if total >= 34.6:
+        print('your high school is 建國中學')
+    elif 33.6 <= total < 34.6:
+        print('your high school is 師大附中')
+    elif 31.6 <= total < 33.6:
+        print('your high school is 成功高中')
+    elif 30.8 <= total < 31.6:
+        print('your high school is 松山高中')
+    elif 29.8 <= total < 30.8:
         print('your high school is 大同高中 or 政大附中')
     elif 29.6 <= total < 29.8: 
         print('your high school is 中崙高中')
@@ -188,14 +217,23 @@ if gob == 'girl':
         print('your high school is 板橋高中')
     elif 27.8 <= total < 28.6:
         print('your high school is 大直高中')
+    elif 27.6 <= total < 27.8:
+        print('your high school is 成淵高中 or 和平高中 or 海山高中')
+    elif 25.8 <= total < 27.6:
+        print('your high school is 內湖高中 or 西松高中')
+    elif 24.8 <= total < 25.8:
+        print('your high school is 中正高中')
+    elif 24.6 <= total < 24.8:
+        print('your high school is 明倫高中')
+    elif 23.8 <= total < 24.6:
+        print('your high school is 南湖高中')
 
-
-
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
+        
